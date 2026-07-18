@@ -1,0 +1,12 @@
+&inputph
+  prefix   = 'cuo2_jt'
+  outdir   = './tmp'
+  recover = .true.
+  tr2_ph   = 1.0d-14
+  ldisp    = .true.
+  nq1      = 8
+  nq2      = 8
+  nq3      = 1
+  fildyn   = 'cuo2.dyn'
+  fildvscf = 'dvscf'
+/

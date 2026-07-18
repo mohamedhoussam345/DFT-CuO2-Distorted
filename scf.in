@@ -1,0 +1,38 @@
+&CONTROL
+  calculation  = 'scf'
+  prefix       = 'cuo2'
+  outdir       = './output'
+  pseudo_dir   = './pseudo'
+  verbosity    = 'high'
+/
+
+&SYSTEM
+  ibrav        = 6
+  celldm(1)    = 7.255        ! a = 3.84 Å in Bohr (adjust if vc-relaxed)
+  celldm(3)    = 4.0          ! large c/a for monolayer vacuum
+  nat          = 3
+  ntyp         = 2
+  ecutwfc      = 60.0
+  ecutrho      = 480.0
+  occupations  = 'smearing'
+  smearing     = 'mv'
+  degauss      = 0.01
+/
+
+&ELECTRONS
+  conv_thr     = 1.0d-8
+  mixing_beta  = 0.4
+  electron_maxstep = 200
+/
+
+ATOMIC_SPECIES
+  Cu  63.546  Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+  O   15.999  O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS {crystal}
+  Cu  0.00  0.00  0.00
+  O   0.50  0.00  0.50
+  O   0.00  0.50  0.50
+
+K_POINTS {automatic}
+  8 8 1 0 0 0

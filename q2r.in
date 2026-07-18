@@ -1,0 +1,8 @@
+&input
+  fildyn  = 'cuo2.dyn'
+  flfrc  = 'cuo2.ifc',   
+  zasr   = 'crystal',    
+/
+8 8 1
+64
+           

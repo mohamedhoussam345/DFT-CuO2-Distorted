@@ -1,0 +1,11 @@
+&input
+ asr = 'crystal',
+  flfrc  = 'cuo2.ifc',   
+ flfrq = 'cuo2.freq',
+ flvec = 'cuo2.modes'
+  dos     = .true.
+  nk1     = 8
+  nk2     = 8
+  nk3     = 1
+  ndos    = 200
+/

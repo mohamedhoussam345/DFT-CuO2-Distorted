@@ -1,0 +1,8 @@
+&INPUT
+  prefix   = 'cuo2_jt'
+  outdir        = './tmp',
+  fildvscf      = 'dvscf',
+    fildyn = 'cuo2.dyn',
+    do_long_range = .false.,
+    verbosity = 'high'
+/
