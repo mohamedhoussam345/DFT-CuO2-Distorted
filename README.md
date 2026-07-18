@@ -31,7 +31,7 @@ input_files/
     matdyn.in
     wfc.in
 scripts/
-g calc final script.py
+    electron phonon coupling.py
 figures/
 
 ```
