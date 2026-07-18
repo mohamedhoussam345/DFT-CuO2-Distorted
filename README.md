@@ -13,8 +13,7 @@ The project was a part of my bachelor graduation thesis  at Cairo University.
 - Extract wavefunction (`psi`) and `dvscf` quantities
 - Analyze the electronic and vibrational properties of the distorted lattice
 - calculate the electron phonon coupling matrix element for distorted and undistorted lattices 
-- comparing the results and see if it verifies theoretical predictions 
-
+- Compare the results to investigate whether the lattice distortion enhances the electron–phonon interaction.
 ## Software
 
 - Quantum ESPRESSO
@@ -35,8 +34,6 @@ scripts/
 g calc final script.py
 figures/
 
-docs/
-    workflow.md
 ```
 
 ## Workflow
