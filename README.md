@@ -41,7 +41,7 @@ docs/
     workflow.md
 ```
 
-# Workflow
+## Workflow
 
 1. Run `pw.x` using `scf.in`
 2. Run `ph.x` using `ph.in`
@@ -49,14 +49,14 @@ docs/
 4. Compute phonon dispersion using `matdyn.x`
 5. Run the Python scripts for post-processing
 
- #Future Work
+ ##Future Work
 
 - Electron–phonon coupling calculations
 - Band structure analysis
 - Density of states
 - Improved visualization tools
 
-# Author
+## Author
 
 **Mohamed Hossam Abdelghafar**
 
