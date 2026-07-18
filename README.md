@@ -33,6 +33,8 @@ input_files/
 scripts/
     electron phonon coupling.py
 figures/
+3D phonon dispersion relation
+2D phonon dispersion relation
 
 ```
 
