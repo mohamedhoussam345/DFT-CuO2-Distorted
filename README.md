@@ -33,8 +33,6 @@ input_files/
     wfc.in
 scripts/
 g calc final script.py
- dvscf_txt.py
- polarization_txt.py
 figures/
 
 docs/
