@@ -30,8 +30,6 @@ input_files/
     q2r.in
     matdyn.in
     wfc.in
-scripts/
-    electron phonon coupling.py
 figures/
 3D phonon dispersion relation
 2D phonon dispersion relation
